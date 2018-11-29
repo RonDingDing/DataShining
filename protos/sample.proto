@@ -1,0 +1,33 @@
+syntax = "proto3"; 
+package sample;
+
+message sample {
+    string     username =   1;
+    string     password =   2;
+    repeated BINGO bingo =   3;
+
+    message BINGO {
+        CC               cc =   1;
+
+        message CC {
+            repeated             int32           are =   1;
+
+        }
+
+    }
+    string      strinsg =   4;
+    SASADF       sasadf =   5;
+
+    message SASADF {
+        string        apple =   1;
+        int32           cat =   2;
+        repeated DOG    dog =   3;
+
+        message DOG {
+            repeated             int32             e =   1;
+
+        }
+
+    }
+
+}
