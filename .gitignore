@@ -1,0 +1,8 @@
+*.iml
+*.xml
+*.class
+*.json
+*.txt
+out/*.*
+proto/*.*
+*.pyc
